@@ -1,0 +1,41 @@
+a { color:#5D5D9E; } 
+a:visited { color:#5D5D9E; } 
+a:active { color:#5C615E; } 
+a:hover { color:#B2B3B4; } 
+body { background-color:#FFFFFF; padding:0;  margin: 0; }
+.textstyle1 { text-align:left; }
+#container_e4bf9ac { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background-color:#f4f4f4;  }
+#container_e4bf9ac_padding { margin: 0px; display: block;  }
+.textstyle2 { text-align:center; }
+
+
+
+#text_6fab104c { vertical-align: bottom; position:relative; display: inline-block; background:none;  }
+.textstyle3 { font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  }
+
+
+#container_49364a9 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:height:80%; background:none;  }
+#container_49364a9_padding { margin: 10px 1px 10px 1px;display: block;  }
+
+
+#container_54a1c552 { vertical-align: top; position:relative; display: inline-block; width:15%; min-height:150px; background:none;  }
+#container_54a1c552_padding { margin: 0px; display: block;  }
+#text_49ec4bae { vertical-align: bottom; position:relative; display: inline-block; background:none;  }
+
+#container_4146eb3e { vertical-align: top; position:relative; display: inline-block; width:70%; min-height:400px; background:none;  }
+#container_4146eb3e_padding { margin: 0px; display: block;  }
+#text_5d6e8fc5 { vertical-align: bottom; position:relative; display: inline-block; background:none;  }
+
+
+#container_4bfff64d { vertical-align: top; position:relative; display: inline-block; width:15%; min-height:150px; background:none;  }
+#container_4bfff64d_padding { margin: 0px; display: block;  }
+#text_10e32479 { vertical-align: bottom; position:relative; display: inline-block; background:none;  }
+#container_798910f0 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:30px; background:none;  }
+#container_798910f0_padding { margin: 0px; display: block;  }
+#text_65b495a2 { vertical-align: bottom; position:relative; display: inline-block; background:none;  }
+@media only screen and (max-width: 450px)
+{
+		#container_54a1c552 { width:100%;  }
+		#container_4146eb3e { width:100%;  }
+		#container_4bfff64d { width:100%;  }
+}
