@@ -7,6 +7,8 @@ function playM3u8(url){
       var m3u8Url = decodeURIComponent(url)
       hls.loadSource(m3u8Url);
       hls.attachMedia(video);
+      hls.subtitleDisplay = false;              //disable subtitles
+      hls.subtitleTrack = 0;			//disable subtitles    
       hls.on(Hls.Events.MANIFEST_PARSED,function() {
         video.play();
       });
